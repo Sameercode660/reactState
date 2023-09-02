@@ -29,6 +29,8 @@ function Logo({text}) {
     setCount(count + 1);
   }
   function decrement(i) {
+    array.pop(i)
+    console.log(array)
     setCount(count - 1);
   }
   function change(e) {
